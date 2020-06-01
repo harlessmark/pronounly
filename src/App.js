@@ -11,7 +11,8 @@ import Importance from './components/Importance';
 import Share from './components/Share';
 import Footer from './components/Footer';
 
-// todo: Google Analytics
+// todo: custom url, https, favicon, readme
+// todo: separate app for Analytics
 
 function App() {
   useEffect(() => {

@@ -7,16 +7,40 @@ function About() {
       Pronounly helps you share your preferred pronoun with other people using
       an easy link to put in your bio. For now, Pronounly supports traditional
       gender pronouns:{' '}
-      <Link to='/he'>
-        <u>He</u>
+      <Link
+        to='/he'
+        style={{
+          backgroundColor: '#2d3748',
+          color: '#f4f4f4',
+          padding: '0 6px',
+          borderRadius: '3px',
+        }}
+      >
+        He
       </Link>
       ,{' '}
-      <Link to='/she'>
-        <u>she</u>
+      <Link
+        to='/she'
+        style={{
+          backgroundColor: '#2d3748',
+          color: '#f4f4f4',
+          padding: '0 6px',
+          borderRadius: '3px',
+        }}
+      >
+        she
       </Link>{' '}
       and{' '}
-      <Link to='/they'>
-        <u>they</u>
+      <Link
+        to='/they'
+        style={{
+          backgroundColor: '#2d3748',
+          color: '#f4f4f4',
+          padding: '0 6px',
+          borderRadius: '3px',
+        }}
+      >
+        they
       </Link>
       .
     </p>
