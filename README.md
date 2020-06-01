@@ -1,22 +1,16 @@
 # Pronounly
 
-Share your preferred pronouns.
+Pronounly helps you share your preferred pronoun with other people by pasting a link in your bio.
 
 ## Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
 ```
-Give the example
+npm start
 ```
 
-And repeat
+## Contributing
 
-```
-until finished
-```
+I'm looking for someone to add non-traditional pronouns such as zie, sie, etc. Please submit a pull request so I can review and merge.
 
 ## Built With
 

@@ -9,14 +9,13 @@ import Pronoun from './components/Pronoun';
 import Example from './components/Example';
 import Importance from './components/Importance';
 import Share from './components/Share';
+import Contribute from './components/Contribute';
 import Footer from './components/Footer';
-
-// todo: custom url, https, favicon, readme
-// todo: separate app for Analytics
 
 function App() {
   useEffect(() => {
-    ReactGa.initialize('UA-161395427-1');
+    // Google Analytics
+    ReactGa.initialize('UA-161395427-2');
     ReactGa.pageview(window.location.pathname + window.location.search);
   }, []);
   return (
@@ -46,6 +45,13 @@ function App() {
         <Route exact path='/they'>
           <Pronoun pronoun='they' />
           <Example pronoun='they' />
+          <Importance />
+          <Share />
+        </Route>
+
+        <Route path='*'>
+          {/* 404 */}
+          <Contribute />
           <Importance />
           <Share />
         </Route>
