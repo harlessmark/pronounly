@@ -20,7 +20,7 @@ function Share() {
         >
           pronounly.co/
         </Link>{' '}
-        and append your preferred pronoun (he, she or they).
+        and append your pronoun (he, she or they).
       </p>
     </div>
   );
