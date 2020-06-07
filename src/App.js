@@ -49,6 +49,13 @@ function App() {
           <Share />
         </Route>
 
+        <Route exact path='/attack-helicopter'>
+          <Pronoun pronoun='attack-helicopter' />
+          <Example pronoun='attack-helicopter' />
+          <Importance />
+          <Share />
+        </Route>
+
         <Route path='*'>
           {/* 404 */}
           <Contribute />

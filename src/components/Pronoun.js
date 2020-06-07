@@ -1,4 +1,5 @@
 import React from 'react';
+import HelicopterSound from './HelicopterSound';
 
 function Pronoun(props) {
   return (
@@ -30,6 +31,24 @@ function Pronoun(props) {
           orientation.
         </p>
       ) : null}
+
+      {props.pronoun === 'attack-helicopter' ? (
+        <div>
+          <p className='text-gray-900 md:text-lg lg:text-xl'>
+            My pronoun is{' '}
+            <span className='font-bold text-gray-800'>attack helicopter</span>.
+            This does not necessarily reflect my branch of service or pronouns
+            of my pilots and passengers.
+          </p>
+          <br />
+          <img
+            src='https://i.imgur.com/uUuGxdV.jpg'
+            alt='photoshopped vladmir putin as an attack helicopter'
+          />
+        </div>
+      ) : null}
+
+      {props.pronoun === 'attack-helicopter' ? <HelicopterSound /> : null}
     </div>
   );
 }
