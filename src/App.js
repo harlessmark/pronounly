@@ -52,9 +52,8 @@ function App() {
 
         <Route exact path='/attack-helicopter'>
           <Pronoun pronoun='attack-helicopter' />
-          <Example pronoun='attack-helicopter' />
-          <Importance />
           <HelicopterSound />
+          <Example pronoun='attack-helicopter' />
         </Route>
 
         <Route path='*'>
