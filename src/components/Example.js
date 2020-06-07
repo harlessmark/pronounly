@@ -35,8 +35,8 @@ function Example(props) {
 
       {props.pronoun === 'attack-helicopter' ? (
         <p className='text-gray-900 md:text-lg lg:text-xl'>
-          <span className='italic'>Attack helipcopter</span> went wuppa wuppa
-          wuppa when it flew by.
+          <span className='italic'>Attack helicopter</span> went
+          wuppa-wuppa-wuppa when it flew by.
         </p>
       ) : null}
     </div>

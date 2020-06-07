@@ -1,5 +1,4 @@
 import React from 'react';
-import HelicopterSound from './HelicopterSound';
 
 function Pronoun(props) {
   return (
@@ -47,8 +46,6 @@ function Pronoun(props) {
           />
         </div>
       ) : null}
-
-      {props.pronoun === 'attack-helicopter' ? <HelicopterSound /> : null}
     </div>
   );
 }

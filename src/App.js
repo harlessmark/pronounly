@@ -11,6 +11,7 @@ import Importance from './components/Importance';
 import Share from './components/Share';
 import Contribute from './components/Contribute';
 import Footer from './components/Footer';
+import HelicopterSound from './components/HelicopterSound';
 
 function App() {
   useEffect(() => {
@@ -53,7 +54,7 @@ function App() {
           <Pronoun pronoun='attack-helicopter' />
           <Example pronoun='attack-helicopter' />
           <Importance />
-          <Share />
+          <HelicopterSound />
         </Route>
 
         <Route path='*'>
