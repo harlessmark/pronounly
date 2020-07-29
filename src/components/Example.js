@@ -33,6 +33,33 @@ function Example(props) {
         </p>
       ) : null}
 
+      {props.pronoun === 'er' ? (
+        <p className='text-gray-900 md:text-lg lg:text-xl'>
+          <span className='italic'>Er</span> lachte, als ich{' '}
+          <span className='italic'>ihn</span> letzte Woche anrief. Ich kann sagen, dass ich{' '}
+          <span className='italic'>seinen</span> Tag gemacht habe. Ich bin froh, dass er{' '}
+          <span className='italic'>sich</span> sehr liebt.
+        </p>
+      ) : null}
+
+      {props.pronoun === 'sie' ? (
+        <p className='text-gray-900 md:text-lg lg:text-xl'>
+          <span className='italic'>They</span> were laughing when I called{' '}
+          <span className='italic'>them</span> last week. I can tell that I made{' '}
+          <span className='italic'>their</span> day. I'm happy they love{' '}
+          <span className='italic'>themself</span> a lot.
+        </p>
+      ) : null}
+
+      {props.pronoun === 'xier' ? (
+        <p className='text-gray-900 md:text-lg lg:text-xl'>
+          <span className='italic'>They</span> were laughing when I called{' '}
+          <span className='italic'>them</span> last week. I can tell that I made{' '}
+          <span className='italic'>their</span> day. I'm happy they love{' '}
+          <span className='italic'>themself</span> a lot.
+        </p>
+      ) : null}
+
       {props.pronoun === 'attack-helicopter' ? (
         <p className='text-gray-900 md:text-lg lg:text-xl'>
           <span className='italic'>Attack helicopter</span> went
