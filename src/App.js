@@ -29,26 +29,15 @@ function App() {
           <Share />
         </Route>
 
-        <Route exact path='/he'>
-          <Pronoun pronoun='he' />
-          <Example pronoun='he' />
+        {['/he', '/she', '/they', '/er', '/sie', '/xier'].map(path => {
+          const pronoun = path.substring(1);
+          return (<Route exact path={path}>
+          <Pronoun pronoun={pronoun} />
+          <Example pronoun={pronoun} />
           <Importance />
           <Share />
-        </Route>
-
-        <Route exact path='/she'>
-          <Pronoun pronoun='she' />
-          <Example pronoun='she' />
-          <Importance />
-          <Share />
-        </Route>
-
-        <Route exact path='/they'>
-          <Pronoun pronoun='they' />
-          <Example pronoun='they' />
-          <Importance />
-          <Share />
-        </Route>
+        </Route>)
+        })}
 
         <Route exact path='/attack-helicopter'>
           <Pronoun pronoun='attack-helicopter' />

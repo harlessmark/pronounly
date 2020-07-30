@@ -43,7 +43,7 @@ function Pronoun(props) {
       {props.pronoun === 'sie' ? (
         <p className='text-gray-900 md:text-lg lg:text-xl'>
         Meine Pronomen sind{' '}
-        <span className='font-bold text-grey-800'>sie, sie, ihre sein oder sie, ihnen, ihre</span>
+        <span className='font-bold text-grey-800'>sie, sie, ihre, oder sie, ihnen, ihre</span>
         .  Dies spiegelt nicht unbedingt mein Geschlecht oder meine
          sexuelle Orientierung wider.
         </p>
@@ -52,8 +52,8 @@ function Pronoun(props) {
       {props.pronoun === 'xier' ? (
         <p className='text-gray-900 md:text-lg lg:text-xl'>
         Meine Pronomen sind{' '}
-        <span className='font-bold text-grey-800'>xier, xies, xiem</span>
-        . Ausgesprochen: [ksi:ɐ̯];  Für eine Person jeden Geschlechts.  Dies spiegelt nicht unbedingt mein Geschlecht oder meine
+        <span className='font-bold text-grey-800'>xier, xiem, xies</span>
+        .  Ausgesprochen: [ksi:ɐ̯].  Für eine Person jeden Geschlechts.  Dies spiegelt nicht unbedingt mein Geschlecht oder meine
          sexuelle Orientierung wider.
         </p>
       ) : null}

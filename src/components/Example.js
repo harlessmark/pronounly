@@ -44,19 +44,24 @@ function Example(props) {
 
       {props.pronoun === 'sie' ? (
         <p className='text-gray-900 md:text-lg lg:text-xl'>
-          <span className='italic'>They</span> were laughing when I called{' '}
-          <span className='italic'>them</span> last week. I can tell that I made{' '}
-          <span className='italic'>their</span> day. I'm happy they love{' '}
-          <span className='italic'>themself</span> a lot.
+          <span className='italic'>Sie</span> lachte, als ich{' '}
+          <span className='italic'>sie</span> letzte Woche anrief. Ich kann sagen, dass ich{' '}
+          <span className='italic'>ihren</span> Tag gemacht habe. Ich bin froh, dass sie{' '}
+          <span className='italic'>sich</span> sehr liebt.
+        <br/>
+        <span className='italic'>Sie</span> lachten, als ich{' '}
+          <span className='italic'>sie</span> letzte Woche anrief. Ich kann sagen, dass ich{' '}
+          <span className='italic'>ihren</span> Tag gemacht habe. Ich bin froh, dass sie{' '}
+          <span className='italic'>sich</span> sehr lieben.
         </p>
       ) : null}
 
       {props.pronoun === 'xier' ? (
         <p className='text-gray-900 md:text-lg lg:text-xl'>
-          <span className='italic'>They</span> were laughing when I called{' '}
-          <span className='italic'>them</span> last week. I can tell that I made{' '}
-          <span className='italic'>their</span> day. I'm happy they love{' '}
-          <span className='italic'>themself</span> a lot.
+          <span className='italic'>Xier</span> lachte, als ich{' '}
+          <span className='italic'>xien</span> letzte Woche anrief. Ich kann sagen, dass ich{' '}
+          <span className='italic'>xiesen</span> Tag gemacht habe. Ich bin froh, dass xier{' '}
+          <span className='italic'>sich</span> sehr liebt.
         </p>
       ) : null}
 
