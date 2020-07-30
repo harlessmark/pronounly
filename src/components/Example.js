@@ -33,6 +33,38 @@ function Example(props) {
         </p>
       ) : null}
 
+      {props.pronoun === 'er' ? (
+        <p className='text-gray-900 md:text-lg lg:text-xl'>
+          <span className='italic'>Er</span> lachte, als ich{' '}
+          <span className='italic'>ihn</span> letzte Woche anrief. Ich kann sagen, dass ich{' '}
+          <span className='italic'>seinen</span> Tag gemacht habe. Ich bin froh, dass er{' '}
+          <span className='italic'>sich</span> sehr liebt.
+        </p>
+      ) : null}
+
+      {props.pronoun === 'sie' ? (
+        <p className='text-gray-900 md:text-lg lg:text-xl'>
+          <span className='italic'>Sie</span> lachte, als ich{' '}
+          <span className='italic'>sie</span> letzte Woche anrief. Ich kann sagen, dass ich{' '}
+          <span className='italic'>ihren</span> Tag gemacht habe. Ich bin froh, dass sie{' '}
+          <span className='italic'>sich</span> sehr liebt.
+        <br/>
+        <span className='italic'>Sie</span> lachten, als ich{' '}
+          <span className='italic'>sie</span> letzte Woche anrief. Ich kann sagen, dass ich{' '}
+          <span className='italic'>ihren</span> Tag gemacht habe. Ich bin froh, dass sie{' '}
+          <span className='italic'>sich</span> sehr lieben.
+        </p>
+      ) : null}
+
+      {props.pronoun === 'xier' ? (
+        <p className='text-gray-900 md:text-lg lg:text-xl'>
+          <span className='italic'>Xier</span> lachte, als ich{' '}
+          <span className='italic'>xien</span> letzte Woche anrief. Ich kann sagen, dass ich{' '}
+          <span className='italic'>xiesen</span> Tag gemacht habe. Ich bin froh, dass xier{' '}
+          <span className='italic'>sich</span> sehr liebt.
+        </p>
+      ) : null}
+
       {props.pronoun === 'attack-helicopter' ? (
         <p className='text-gray-900 md:text-lg lg:text-xl'>
           <span className='italic'>Attack helicopter</span> went
