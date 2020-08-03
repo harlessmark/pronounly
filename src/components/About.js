@@ -37,7 +37,7 @@ function About() {
 					borderRadius: "3px",
 				}}>
 				they
-			</Link>
+			</Link>{" "}
 			as well as common German pronouns:{" "}
 			<Link
 				to='/er'
