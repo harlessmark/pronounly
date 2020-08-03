@@ -5,6 +5,7 @@ Pronounly helps you share your preferred pronoun with other people by pasting a 
 ## Installing
 
 ```
+npm i
 npm start
 ```
 
