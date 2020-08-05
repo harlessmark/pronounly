@@ -28,15 +28,7 @@ function App() {
 					<Share />
 				</Route>
 
-				{[
-					"/he",
-					"/she",
-					"/they",
-					"/er",
-					"/sie",
-					"/xier",
-					"/attack-helicopter",
-				].map(path => {
+				{["/he", "/she", "/they", "/er", "/attack-helicopter"].map(path => {
 					const pronoun = path.substring(1);
 					return (
 						<Route exact path={path}>

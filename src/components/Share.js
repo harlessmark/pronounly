@@ -19,7 +19,7 @@ function Share() {
 					}}>
 					pronounly.co/
 				</Link>{" "}
-				and append your pronoun (he, she, they, er, sie or xier).
+				and append your pronoun (he, she, they, er or sie).
 			</p>
 		</div>
 	);

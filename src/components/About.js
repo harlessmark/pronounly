@@ -48,8 +48,8 @@ function About() {
 					borderRadius: "3px",
 				}}>
 				er
-			</Link>
-			,{" "}
+			</Link>{" "}
+			and{" "}
 			<Link
 				to='/sie'
 				style={{
@@ -59,17 +59,6 @@ function About() {
 					borderRadius: "3px",
 				}}>
 				sie
-			</Link>{" "}
-			and{" "}
-			<Link
-				to='/xier'
-				style={{
-					backgroundColor: "#2d3748",
-					color: "#f4f4f4",
-					padding: "0 6px",
-					borderRadius: "3px",
-				}}>
-				xier
 			</Link>
 			.
 		</p>
