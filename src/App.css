@@ -4,16 +4,24 @@ body {
 }
 
 h1 {
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
   margin: 0;
 }
 
 h2 {
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
 }
 
 p {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 1.5;
+}
+
+.link-border {
+  background-color: #2d3748;
+  color: #f4f4f4;
+  padding: 0 6px;
+  border-radius: 3px;
 }
 
 @media only screen and (min-width: 768px) {
