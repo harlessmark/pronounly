@@ -13,9 +13,18 @@ import Contribute from "./components/Contribute";
 import Footer from "./components/Footer";
 
 function App() {
+  const pronouns = [
+    "/he",
+    "/she",
+    "/they",
+    "/er",
+    "/sie",
+    "/attack-helicopter",
+  ];
+
   useEffect(() => {
     // Google Analytics
-    ReactGa.initialize("UA-161395427-2");
+    ReactGa.initialize("UA-179501427-1");
     ReactGa.pageview(window.location.pathname + window.location.search);
   }, []);
 
@@ -29,19 +38,17 @@ function App() {
           <Share />
         </Route>
 
-        {["/he", "/she", "/they", "/er", "/sie", "/attack-helicopter"].map(
-          path => {
-            const pronoun = path.substring(1);
-            return (
-              <Route exact path={path} key={1}>
-                <Pronoun pronoun={pronoun} />
-                <Example pronoun={pronoun} />
-                <Importance />
-                <Share />
-              </Route>
-            );
-          }
-        )}
+        {pronouns.map(path => {
+          const pronoun = path.substring(1);
+          return (
+            <Route exact path={path} key={1}>
+              <Pronoun pronoun={pronoun} />
+              <Example pronoun={pronoun} />
+              <Importance />
+              <Share />
+            </Route>
+          );
+        })}
 
         <Route path='*'>
           {/* 404 */}
