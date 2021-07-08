@@ -10,7 +10,7 @@ function Share() {
       <p className='text-gray-900 md:text-lg lg:text-xl'>
         Enter{" "}
         <Link to='/' className='link-border'>
-          pronounly.co/
+          pronounly.netlify.app/
         </Link>{" "}
         + your preferred pronoun in your social media bios.
       </p>
